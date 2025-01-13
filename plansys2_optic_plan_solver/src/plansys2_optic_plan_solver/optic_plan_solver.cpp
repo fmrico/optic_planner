@@ -57,7 +57,6 @@ void OPTICPlanSolver::configure(
   rclcpp_lifecycle::LifecycleNode::SharedPtr lc_node,
   const std::string & plugin_name)
 {
-  std::cerr << " OPTICPlanSolver::configure 1 " << std::endl;
   lc_node_ = lc_node;
 
   arguments_parameter_name_ = plugin_name + ".arguments";
